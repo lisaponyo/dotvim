@@ -33,3 +33,11 @@ Bundle 'JiangMiao/simple-javascript-indenter'
 filetype plugin indent on     " required!
 set t_Co=256             "256 colors
 colorscheme zenburn
+
+for file in split(glob($HOME . '/.vim/vimrc/*\.vim'), '\n')
+  execute ':source ' . file
+endfor
+for file in split(glob($HOME . '/.vim/private/*\.vim'), '\n')
+  execute ':source ' . file
+endfor
+
