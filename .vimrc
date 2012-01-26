@@ -23,12 +23,12 @@ Bundle 'ujihisa/unite-font'
 Bundle 'kana/vim-vspec'
 Bundle 'kana/vim-smartchr'
 Bundle 'tpope/vim-surround'
-Bundle 'tpope/vim-colors-solarized'
+Bundle 'tpope/altercation/solarized'
 Bundle 'tpope/vim-rails'
 Bundle 'kmnk/vim-unite-svn'
 Bundle 'tacroe/unite-mark'
 Bundle 'Sixeight/unite-grep'
-Bundle 'JiangMiao/simple-javascript-indenter'
+Bundle 'jiangmiao/simple-javascript-indenter'
 
 filetype plugin indent on     " required!
 set t_Co=256             "256 colors
