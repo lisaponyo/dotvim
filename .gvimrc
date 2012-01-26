@@ -1,4 +1,4 @@
-colorscheme solarized
+"colorscheme solarized
 set guifont=Ricty\ 12
 "set mouse=a
 "set nomousefocus " マウスの移動でフォーカスを自動的に切替えない (mousefocus:切替る)
